@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Table from './components/Table'
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <h1 className="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
         Vercel Postgres
       </h1>
+      <Table />
       <p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
         Built with{' '}
         <Link
